@@ -1,25 +1,23 @@
-DESAFIO - SISTEMA DE CADASTROS! 
+##DESAFIO - SISTEMA DE CADASTROS! 
 
-Chega de teoria, agora você vai botar na prática o primeiro desafio do projeto.
-
-Escopo do projeto:
+#Escopo do projeto:
 
 Neste desafio, você irá colocar em prática os seguintes conhecimentos:
 
-Orientação a Objetos
-Java io
-Streams, lambda
-Exceções
-Boas práticas de código
+- Orientação a Objetos
+- Java io
+- Streams, lambda
+- Exceções
+- Boas práticas de código
 
-A IDEIA DO PROJETO:
+#A IDEIA DO PROJETO:
 
 Você irá criar um sistema de CADASTRO via CLI (no terminal), em que a pessoa que utilizará seu programa (usuário), vai poder cadastrar uma pessoa interessada, alterar seus dados, deletar uma pessoa, listar todas pessoas cadastradas etc.
 
-Como deverá ser feito?
+#Como deverá ser feito?
 
 
-Passo 1 
+#Passo 1 
 
 Você deverá criar um arquivo chamado formulario.txt, nele, deverá conter as seguintes perguntas:
 
@@ -33,10 +31,7 @@ O primeiro passo, é você criar uma aplicação que irá LER este arquivo .txt 
 Não é permitido escrever as perguntas no seu código e printa-las na tela, você deverá LER o arquivo, guardar o conteúdo em alguma estrutura de dados a sua escolha e, printar na tela.
 
 
-
-
-
-Passo 2 
+#Passo 2 
 
 Agora, você irá cadastrar um usuário e vai ter de RESPONDER essas 4 perguntas, e, após respondê-las, você deverá imprimir a resposta no terminal, algo como:
 
@@ -48,15 +43,13 @@ lucascarrilho123@gmail.com
 Neste ponto, recomendo que você pense no Paradigma de OO, pois será legal se você armazenar essas informações em um objeto.
 
 
-Passo 3 
+#Passo 3 
 
 Você deverá agora, SALVAR em um arquivo .txt, essas 4 respostas dadas no passo anterior a respeito do usuário em um arquivo txt com o seguinte formato: 1-LUCASCARRILHO.TXT.
 
 Você deverá CONCATENAR o nome que a pessoa responder na primeira pergunta e salvá-lo com letras maiúsculas e na seguinte ordem, 1,2,3,4 e assim sucessivamente.
 
-
-
-Passo 4
+#Passo 4
 
 Agora, você deverá criar um “menu principal” com as seguintes duas opções:
 
@@ -70,13 +63,14 @@ Neste caso, você o usuário vai poder escolher entre a opção 1 e 5, como a 1 
 
 1 - Lucas Carrilho
 2 - Joao Pe de Feijao
-Passo 5
 
+
+#Passo 5
 
 Você agora, vai criar a função de adicionar nova pergunta ao formulário e deletar pergunta cadastrada, uma regra aqui -> Não será POSSÍVEL apagar as 4 primeiras perguntas, apenas da 5 em diante.
 
 
-Passo 6
+#Passo 6
 
 Agora, você deverá implementar outra função que BUSCA por todos os usuários cadastrados na aplicação, seja por parte do nome ou o termo inteiro, exemplo:
 
@@ -85,8 +79,7 @@ Cadastrados : Lucas Almeida, Luca De Sá, Luc Montavão.
 Caso o usuário digite “Luca”, deverá retornar somente o primeiro e o segundo com suas devidas informações. (OO + ordenação).
 
 
-Passo 7
-
+#Passo 7
 
 Agora, vamos adicionar algumas validações a nossa aplicação.
 
