@@ -61,14 +61,19 @@ Você deverá CONCATENAR o nome que a pessoa responder na primeira pergunta e sa
 Agora, você deverá criar um “menu principal” com as seguintes duas opções:
 
 1 - Cadastrar o usuário
+
 2 - Listar todos usuários cadastrados
+
 3 - Cadastrar nova pergunta no formulário
+
 4 - Deletar pergunta do formulário
+
 5 - Pesquisar usuário por nome ou idade ou email
 
 Neste caso, você o usuário vai poder escolher entre a opção 1 e 5, como a 1 já foi desenvolvida, na 2, ele deverá pegar todas as pessoas cadastradas e listar SOMENTE O NOME DE TODAS ELAS, como no exemplo a seguir que o usuário selecione a opção 2:
 
 1 - Lucas Carrilho
+
 2 - Joao Pe de Feijao
 
 
@@ -90,7 +95,7 @@ Caso o usuário digite “Luca”, deverá retornar somente o primeiro e o segun
 
 Agora, vamos adicionar algumas validações a nossa aplicação.
 
-1 - > Momento de cadastro de usuário:
+- 1 - > Momento de cadastro de usuário:
 
 O usuário deverá possuir no mínimo 10 caracteres de nome, deverá possuir obrigatoriamente o campo @ no e-mail, deverá ter mais de 18 anos, e o formato da altura preenchida deverá ser sempre o número com virgulas.
 
@@ -99,12 +104,13 @@ Para todos esses erros, deverão ser lançadas EXCEÇÕES explicando a causa do 
 Caso existam 2 emails iguais, o sistema NÃO deverá permitir o cadastro.
 
 
-2 - > Momento de cadastro perguntas
+- 2 - > Momento de cadastro perguntas
 
 O usuário não vai precisar digitar o número da pergunta a ser cadastrada, isso deverá ser de forma AUTOMÁTICA.
 Se temos 6 perguntas, ele vai digitar a sétima e ficará no formato:
+
 7 - Qual seu hobbie favorito?
 
-3 -> Momento de deletar perguntas
+- 3 -> Momento de deletar perguntas
 
 O usuário deverá apontar o número da pergunta que deseja DELETAR, somente isso e será apagado do formulário.
