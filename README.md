@@ -1,4 +1,4 @@
-4 - DESAFIO - SISTEMA DE CADASTROS! 
+DESAFIO - SISTEMA DE CADASTROS! 
 
 Chega de teoria, agora você vai botar na prática o primeiro desafio do projeto.
 
